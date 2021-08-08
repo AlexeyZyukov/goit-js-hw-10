@@ -1,6 +1,6 @@
 import singleDishCardTmpl from '../templates/dish.hbs';
 import menuList from '../menu.json';
-import '../../src/styles.css';
+import '../styles.css';
 import '../sass/main.scss';
 
 const menuContainer = document.querySelector('.js-menu');
