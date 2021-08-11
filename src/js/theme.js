@@ -25,7 +25,7 @@ function onClickChangeLocalStorage() {
 function restoreTheme() {
     const savedTheme = localStorage.getItem('theme')
     if (savedTheme === 'dark-theme') {
-        console.log(savedTheme);
+        //console.log(savedTheme);
         document.body.classList.add('dark-theme');
         themeSwitchControl.checked = true;
     }
